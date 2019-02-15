@@ -26,6 +26,10 @@ namespace DrawingStarMethod
         /// Gathers information from the input boxes and then sends values
         /// to the DrawStar method to draw the star in the location and the 
         /// size that the user indicated.
+        /// 
+        
+
+
         private void drawButton_Click(object sender, EventArgs e)
         {
             try
@@ -74,6 +78,16 @@ namespace DrawingStarMethod
             g.DrawLine(starPen, 0 * scale + x, 77 * scale + y, 80 * scale + x, 77 * scale + y);
 
             //TODO: put the above points into a PointF array and use DrawPolygon to draw your star
+            Point point1 = new Point(80, 77);
+            Point point2 = new Point(103, 4);
+            Point point3 = new Point(126,78);
+            Point point4 = new Point(207,78);
+            Point point5 = new Point(143,125);
+            Point point6 = new Point(167,197);
+            Point point7 = new Point(103,152);
+            Point point8 = new Point(40,196);
+            Point point9 = new Point(63,123);
+            Point point10 = new Point(0,77);
         }
 
         /// Gathers information from the input boxes and then sends values
